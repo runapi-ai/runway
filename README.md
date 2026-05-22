@@ -1,5 +1,7 @@
 # Runway API Skill for RunAPI
 
+[![skills.sh](https://skills.sh/b/runapi-ai/runway)](https://skills.sh/runapi-ai/runway)
+
 Generate video, extend clips, and run Aleph video-to-video transforms with the Runway SDK. This skill helps Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents integrate Runway through RunAPI.
 
 The canonical agent file is `skills/runway/SKILL.md`.
