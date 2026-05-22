@@ -12,7 +12,18 @@ The canonical agent file is `skills/runway/SKILL.md`.
 npx skills add runapi-ai/runway -g
 ```
 
-Or manually: clone this repo and copy `skills/runway/` into your agent's skills directory.
+Or paste this prompt to your AI agent:
+
+```text
+Install the runway skill for me:
+
+1. Clone https://github.com/runapi-ai/runway
+2. Copy the skills/runway/ directory into your
+   user-level skills directory (e.g. ~/.claude/skills/
+   for Claude Code, ~/.codex/skills/ for Codex).
+3. Verify that SKILL.md is present.
+4. Confirm the install path when done.
+```
 
 ## Quick example
 
