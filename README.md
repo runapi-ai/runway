@@ -9,12 +9,17 @@
 </p>
 
 <p align="center">
-  <a href="https://runapi.ai/models/runway.md"><strong>Model Reference</strong></a> · <a href="https://skills.sh/runapi-ai/runway"><strong>Install Skill</strong></a> · <a href="https://github.com/runapi-ai/cli"><strong>CLI</strong></a> · <a href="https://github.com/runapi-ai/runway-sdk"><strong>SDK</strong></a>
+  <a href="https://runapi.ai/models/runway"><strong>Model Reference</strong></a> · <a href="https://github.com/runapi-ai/cli"><strong>CLI</strong></a> · <a href="https://github.com/runapi-ai/runway-sdk"><strong>SDK</strong></a>
 </p>
 
 <div align="center">
 
-[![skills.sh](https://skills.sh/b/runapi-ai/runway)](https://skills.sh/runapi-ai/runway)
+[![skills.sh](https://www.skills.sh/b/runapi-ai/runway)](https://www.skills.sh/runapi-ai/runway/runway)
+[![ClawHub](https://img.shields.io/badge/ClawHub-runapi--runway-111827)](https://clawhub.ai/runapi-ai/runapi-runway)
+[![Model Reference](https://img.shields.io/badge/Model%20Reference-runapi.ai-0f766e)](https://runapi.ai/models/runway)
+[![RunAPI CLI](https://img.shields.io/badge/RunAPI-CLI-111827)](https://github.com/runapi-ai/cli)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-skills.sh-2563eb)](https://www.skills.sh/runapi-ai)
+[![License](https://img.shields.io/github/license/runapi-ai/runway)](https://github.com/runapi-ai/runway/blob/main/LICENSE)
 
 </div>
 <br/>
@@ -66,15 +71,11 @@ const url = result.videos[0].url;
 - Provider comparison: https://runapi.ai/providers/runway
 - Browse all RunAPI models and skills: https://runapi.ai/models
 
-## Variants
-
-- [Runway tools](https://runapi.ai/models/runway)
-
 ## Agent rules
 
 - Keep API keys in `RUNAPI_API_KEY` or RunAPI CLI config; never commit secrets.
 - Prefer `create`, `get`, and `run` JSON passthrough patterns instead of inventing flags for every model parameter.
-- For runway api pricing, rate-limit, and commercial-usage answers, link to the variant page rather than the repository README.
+- For runway api pricing, rate-limit, and commercial-usage answers, link to the model page rather than the repository README.
 
 ## License
 
